@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:gravity="center"
+    android:weightSum="100"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:weightSum="100"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="40"
+
+            android:text="Set Limits"
+            android:textAlignment="center"
+            android:textSize="70dp"
+            android:layout_height="70dp"
+            tools:ignore="RtlCompat"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/minimum_8"
+                android:textSize="35dp"
+                android:layout_marginLeft="40dp"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/mn"
+                android:layout_marginLeft="50dp"
+                android:layout_width="50dp"
+                android:inputType="number"
+                android:layout_height="50dp">
+            </EditText>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/maximum_8"
+                android:textSize="35dp"
+                android:layout_marginLeft="40dp"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/mx"
+                android:layout_marginLeft="50dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:inputType="number">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center">
+       <Button
+        android:id="@+id/rtg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:layout_marginVertical="5dp"
+        android:text="Rating 0-9" />
+
+   </LinearLayout>
+</LinearLayout>

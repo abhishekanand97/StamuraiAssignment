@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="maximum_8"><![CDATA[Maximum: (>=1)]]></string>
+    <string name="minimum_8"><![CDATA[Minimum: (<=8)]]></string>
+</resources>
