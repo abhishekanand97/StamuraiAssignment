@@ -126,7 +126,7 @@
         android:layout_height="wrap_content"
         android:textSize="8dp"
         android:layout_gravity="center"
-        android:layout_marginVertical="5dp"
+        android:layout_marginVertical="4dp"
 
         android:text="View Rating History" />
 
