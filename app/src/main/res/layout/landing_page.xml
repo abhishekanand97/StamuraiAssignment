@@ -51,6 +51,7 @@
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
@@ -104,9 +105,18 @@
             android:id="@+id/nxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
             android:text="Submit"
             android:textSize="18dp" />
     </LinearLayout>
-
+    <Button
+        android:id="@+id/btnhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Rating History"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="8dp" />
 
 </LinearLayout>

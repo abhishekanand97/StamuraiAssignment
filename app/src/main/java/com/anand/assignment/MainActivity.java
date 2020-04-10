@@ -29,13 +29,24 @@ public class MainActivity extends AppCompatActivity {
 
 
         final Button nxt=(Button)findViewById(R.id.rtg);
+        final Button hbtn=(Button)findViewById(R.id.hst);
         Button apl=(Button)findViewById(R.id.apply);
+
+        hbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(view.getContext(), History2.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
 
         nxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(view.getContext(), LandingPage.class);
                 startActivity(intent);
+                //finish();
             }
         });
 
